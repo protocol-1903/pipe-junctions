@@ -1,0 +1,14 @@
+{
+  "name": "pipe-junctions",
+  "version": "1.0.0",
+  "title": "Pipe Junctions",
+  "description": "Adds pipe junctions that act like splitters, but for fluids. Cycle variations with CONTROL + R. Made in 4 hours for the Autocomplete 3 Mod Jam",
+  "author": "protocol_1903",
+  "homepage": "https://discord.gg/K3fXMGVc4z",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base",
+    "? parallel-piping",
+    "? the-one-mod-with-underground-bits"
+  ]
+}
