@@ -20,7 +20,7 @@ script.on_event(defines.events.on_built_entity, function (event)
   if not entity or not entity.valid then return end
   local name = entity.name == "entity-ghost" and entity.ghost_name or entity.name
   if not name:find("pipe-junction", 1, true) then return end
-  entity.surface.create_entity({
+  entity.surface.create_entity{
     name = entity.name == "entity-ghost" and "entity-ghost" or old,
     ghost_name = entity.name == "entity-ghost" and old or nil,
     position = entity.position,
@@ -30,7 +30,7 @@ script.on_event(defines.events.on_built_entity, function (event)
     fast_replace = true,
     spill = false,
     create_build_effect_smoke = false,
-  })
+  }
 end)
 
 local next = {
@@ -48,7 +48,7 @@ script.on_event("pipe-junction-next", function (event)
   local name = entity.name == "entity-ghost" and entity.ghost_name or entity.name
   if not name:find("pipe-junction", 1, true) then return end
   local new_name = name:sub(1, -2) .. next[name:sub(-1)]
-  local new_neighbour = entity.surface.create_entity({
+  entity.surface.create_entity{
     name = entity.name == "entity-ghost" and "entity-ghost" or new_name,
     ghost_name = entity.name == "entity-ghost" and new_name or nil,
     position = entity.position,
@@ -58,5 +58,6 @@ script.on_event("pipe-junction-next", function (event)
     fast_replace = true,
     spill = false,
     create_build_effect_smoke = false,
-  })
+  }
+  player.play_sound{path = "utility/rotated_small"}
 end)

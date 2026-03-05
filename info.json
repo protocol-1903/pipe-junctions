@@ -1,6 +1,6 @@
 {
   "name": "pipe-junctions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Pipe Junctions",
   "description": "Adds pipe junctions that act like splitters, but for fluids. Cycle variations with CONTROL + R. Made in 4 hours for the Autocomplete 3 Mod Jam",
   "author": "protocol_1903",
