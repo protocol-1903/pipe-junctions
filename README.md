@@ -5,7 +5,7 @@ Adds fluid junctions that act like splitters, but for fluids. Note that these us
 
 Cycle through variations with CONTROL + R
 
-Pairs very well with my mods [Actual Underground Pipes](https://mods.factorio.com/mod/the-one-mod-with-underground-bits) and [Parallel Piping](https://mods.factorio.com/parallel-piping)
+Pairs very well with my mods [Actual Underground Pipes](https://mods.factorio.com/mod/the-one-mod-with-underground-bits) and [Parallel Piping](https://mods.factorio.com/mod/parallel-piping)
 
 Thumbnail courtesy of _CodeGreen's Matter Inversion
 
