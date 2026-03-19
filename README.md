@@ -9,4 +9,5 @@ Pairs very well with my mods [Actual Underground Pipes](https://mods.factorio.co
 
 Thumbnail courtesy of _CodeGreen's Matter Inversion
 
+My mods are made 100% by humans, with no computer generated code or graphics.
 If you have a mod idea, let me know and I can look into it.
