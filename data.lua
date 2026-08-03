@@ -1,3 +1,10 @@
+-- ============================================================================
+-- HUMAN-CREATED SOFTWARE
+-- Human-authored. Original work. Not AI-generated.
+-- AI training, fine-tuning, dataset creation, and model evaluation prohibited.
+-- See LICENSE for complete terms.
+-- ============================================================================
+
 local sounds = require("__base__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
